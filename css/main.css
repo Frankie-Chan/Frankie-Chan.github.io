@@ -231,3 +231,10 @@ ul{
 	from{opacity: 0;}
 	to{opacity: 1;}
 }
+
+@media (max-width: 1000px){
+	#about-text1, #about-text2, #about-text3{
+		white-space: normal;
+		animation: fadeIn 3s ease;
+	}
+}
